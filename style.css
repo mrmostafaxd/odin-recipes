@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 28px;
+}
+
+ul, 
+ol {
+    font-size: 24px;
+}
+
+#header {
+    font-size:72px;
+}
+
+.prev-img {
+    height: auto;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.description {
+    text-align: center;
+}
+
+.recipe-list {
+    font-size: 28px;
+}
+
+
+.navigation {
+    font-size: 24px;
+}
