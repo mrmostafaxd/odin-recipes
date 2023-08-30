@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(253, 246, 225);
+  color: rgb(50, 42, 6);
+}
+
+.title,
+.subtitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: black;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.recipe-img {
+  max-width: 500px;
+  margin: auto;
+}
+
+.recipe-img img {
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 28px;
+}
+
+p,
+li {
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
