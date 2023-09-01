@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Odin Recipes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Recipese</title>
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="./css/index.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <ol class="recipe-list">
-        <h1 class="title">Odin Recipes</h1>
-        <li class="recipe-item">
+    <h1>Odin Recipes</h1>
+    <div class="recipe-container">
+      <!-- the perfect burger -->
+      <div class="recipe-card">
+        <img
+          class="recipe-card-img"
+          src="images/the-perfect-burger-cropped.png"
+          alt="burger with sandwich with cheese, onion and tomato slices"
+        />
+        <h4 class="recipe-name">
           <a href="./recipes/perfect-basic-burger.html">
             The Perfect Basic Burger
           </a>
-        </li>
-        <li class="recipe-item">
-          <a href="./recipes/cuban-ropa-vieja.html">Cuban Ropa Vieja </a>
-        </li>
-        <li class="recipe-item">
-          <a href="./recipes/genoise-sponge.html">Genoise Sponge</a>
-        </li>
-      </ol>
+        </h4>
+      </div>
+      <!-- Cuban Ropa Vieja -->
+      <div class="recipe-card">
+        <img
+          class="recipe-card-img"
+          src="images/cuban-ropa-vieja.png"
+          alt="Cuban Ropa Vieja in a red plate"
+        />
+        <h4 class="recipe-name">
+          <a href="./recipes/cuban-ropa-vieja.html"> Cuban Ropa Vieja </a>
+        </h4>
+      </div>
+      <!-- Genoise Sponge -->
+      <div class="recipe-card">
+        <img
+          class="recipe-card-img"
+          src="images/genoise-sponge.jpg"
+          alt="Genoise Sponge"
+        />
+        <h4 class="recipe-name">
+          <a href="./recipes/genoise-sponge.html"> Genoise Sponge </a>
+        </h4>
+      </div>
     </div>
   </body>
 </html>
